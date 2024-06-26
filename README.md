@@ -6,7 +6,7 @@
 
 - **Automatic Notifications**: Receive notifications at the start of each salat time.
 - **Preparation Reminders**: Get a reminder notification 5 minutes before each salat for preparation.
-- **Current Salat Information**: The "What Now?" button provides instant information about the current salat time, including the remaining time until the next salat.
+- **Current Salat Information**: The "এখন কোন নামাযের সমায়?" button provides instant information about the current salat time, including the remaining time until the next salat.
 - **User-Friendly Interface**: A visually appealing and easy-to-use interface with a detailed table displaying all daily salat times.
 - **Responsive Design**: Ensures a seamless user experience across various devices.
 
