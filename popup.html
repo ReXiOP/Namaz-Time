@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>আজকের নামাজের সময়সূচী</title>
+<style>
+ body {
+  font-family: 'Arial', sans-serif;
+  padding: 40px; /* Adjust padding for better spacing */
+  background-color: #f4f4f9;
+  color: #333;
+  text-align: center;
+}
+
+h1, h2 {
+  margin-bottom: 10px; /* Add spacing below headings */
+}
+
+h1 {
+    font-size: 18px;
+  color: #333;
+}
+
+h2 {
+  color: #4CAF50;
+}
+
+button {
+  font-size: 11px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  padding: 10px 20px; /* Restore padding for button */
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#currentSalatTime {
+  margin-top: 10px;
+  font-size: 18px; /* Increase font size for visibility */
+  color: #4CAF50;
+}
+
+#currentTime, #remainingTime {
+  font-size: 14px; /* Increase font size for readability */
+  margin-top: 10px; /* Adjust spacing */
+}
+
+table {
+  width: fit-content;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  border: 2px solid #4CAF50;
+}
+
+th, td {
+  padding: 12px; /* Increase padding for better spacing */
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+}
+
+td {
+  background-color: #f9f9f9;
+}
+
+tr:nth-child(even) td {
+  background-color: #f2f2f2;
+}
+
+tr:hover td {
+  background-color: #e1f5e1;
+}
+
+</style>
+</head>
+<body>
+  <h1>আজকের নামাজের সময়সূচী</h1> 
+  <button id="whatNowBtn">এখন কোন নামাযের সমায়?</button>
+  <div id="currentSalatTime"></div>
+  <div id="currentTime"></div>
+  <div id="remainingTime"></div>
+  <h2>নামাজের সময়সূচী</h2>
+  <table id="salatTimesTable">
+    <thead>
+      <tr>
+        <th>Salat</th>
+        <th>Start Time</th>
+        <th>End Time</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Salat times will be populated here -->
+    </tbody>
+  </table>
+
+  <script src="popup.js"></script>
+</body>
+</html>

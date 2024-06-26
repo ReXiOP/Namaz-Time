@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    padding: 80px;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    color: #4CAF50;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 20px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #currentSalatTime {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #4CAF50;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 2px solid #4CAF50;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: normal;
+  }
+  
+  td {
+    background-color: #f9f9f9;
+  }
+  
+  tr:nth-child(even) td {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover td {
+    background-color: #e1f5e1;
+  }
+  
